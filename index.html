@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王景烨的个人网页</title>
+    <style>
+        body {
+            background-color: #fff0f6;
+            color: #555555;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ffccf2;
+            border-bottom: 5px solid #ff99cc;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #ff6699;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #cc6699;
+        }
+        nav {
+            background-color: #ff99cc;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #ff6699;
+            color: #ffffff;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #ff6699;
+            border-bottom: 2px solid #ff99cc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #ffe6f2;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        a {
+            color: #ff6699;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            background-color: #ffe6f2;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .service {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service-item {
+            background: #ffccf2;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 calc(50% - 20px);
+            box-sizing: border-box;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .service-item:hover {
+            transform: scale(1.05);
+            background-color: #ff99cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>王景烨的个人网页</h1>
+        <p>可爱风格的职业鸭子</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="about.html">关于我</a></li>
+            <li><a href="projects.html">项目展示</a></li>
+            <li><a href="skills.html">技能展示</a></li>
+            <li><a href="interests.html">兴趣爱好</a></li>
+            <li><a href="contact.html">联系方式</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/800x400?text=%E5%8F%AF%E7%88%B1%E7%9A%84%E9%B8%AD%E5%AD%90%E7%85%A7%E7%89%87" alt="可爱的鸭子照片">
+        </div>
+        <h2 id="about">关于我</h2>
+        <p>大家好！我叫王景烨，今年18岁，性别男，喜欢女。我在新加坡从事职业鸭子的工作，已有20年的专业经验。作为一名可爱风格的职业鸭子，我不断挑战自我，追求卓越。</p>
+
+        <h2 id="experience">职业经历</h2>
+        <ul>
+            <li>
+                <strong>职业鸭子</strong> - 自2018年至今
+                <p>在新加坡从事职业鸭子的工作，提供高质量的陪伴服务，满足客户的各种需求。多次参与专业培训，不断提升服务质量。</p>
+            </li>
+            <li>
+                <strong>专业鸭子培训师</strong> - 2020年至2022年
+                <p>担任专业鸭子培训师，负责培训新人，传授经验和技巧，帮助他们迅速适应工作环境。</p>
+            </li>
+        </ul>
+
+        <h2 id="projects">项目展示</h2>
+        <p>我最自豪的项目之一是连续不间断做鸭24小时。这不仅展示了我的体力和耐力，也展现了我对工作的热情和专业精神。</p>
+
+        <h2>服务项目</h2>
+        <div class="service">
+            <div class="service-item">
+                <h3>24小时陪伴服务</h3>
+                <p>提供全天候的高质量陪伴服务，确保客户在任何时候都能得到满意的服务。</p>
+            </div>
+            <div class="service-item">
+                <h3>私人定制服务</h3>
+                <p>根据客户的具体需求，提供个性化的服务，确保每位客户都能享受到独特的体验。</p>
+            </div>
+            <div class="service-item">
+                <h3>专业咨询服务</h3>
+                <p>为新手鸭子提供专业的咨询和培训服务，帮助他们快速提升技能，适应工作。</p>
+            </div>
+            <div class="service-item">
+                <h3>高级陪伴服务</h3>
+                <p>为高端客户提供高级陪伴服务，满足他们的各种高标准需求。</p>
+            </div>
+        </div>
+        
+        <h2 id="skills">技能展示</h2>
+        <ul>
+            <li>优秀的沟通和人际交往能力</li>
+            <li>高度的职业道德和专业精神</li>
+            <li>强大的体能和耐力</li>
+            <li>多语言能力（中文、英文）</li>
+        </ul>
+
+        <h2 id="interests">兴趣爱好</h2>
+        <p>在工作之余，我喜欢阅读科幻小说、观看可爱风格的电影和电视剧。我也喜欢健身和户外运动，保持良好的身体状态。</p>
+        
+        <h2 id="contact">联系方式</h2>
+        <div class="contact">
+            <p>Email: <a href="mailto:wangjingye671@gmail.com">wangjingye671@gmail.com</a></p>
+        </div>
+    </section>
+</body>
+</html>
